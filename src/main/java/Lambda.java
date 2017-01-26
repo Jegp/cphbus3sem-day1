@@ -12,8 +12,8 @@ import java.util.function.Function;
  * <p>When you're done, try runnig the maven 'verify' task
  * and go to <a href="http://46.101.113.24:6000/">http://46.101.113.24:6000/{your user name}</a> where
  * "{your user name}" is your name of your Windows/Mac/Unix user (it will feature in the console output when deploying
- * through maven. If this gives you any problems, please change the name in the pom.xml file under the
- * <code><user></user></code> tags.
+ * through maven. If this gives you any problems (if your username is ⚔ for instance), please change the name in
+ * the pom.xml file under the <code><user></user></code> tags.
  * </p>
  */
 public class Lambda {
