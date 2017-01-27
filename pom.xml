@@ -12,7 +12,7 @@
     <properties>
         <user>${user.name}</user>
         <assignment>ex0</assignment>
-        <server>http://46.101.113.24:6000</server>
+        <server>http://46.101.113.24:8080</server>
     </properties>
 
     <dependencies>
