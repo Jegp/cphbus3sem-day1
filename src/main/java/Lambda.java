@@ -10,12 +10,8 @@ import java.util.function.Supplier;
  * To complete this exercise, implement the three methods below.
  * </p>
  * <h2>Maven guide</h2>
- * <p>When you're done, try runnig the maven 'verify' task either from Netbeans or by going to a console and typing
- * 'mvn verify'. When that succeeds go to
- * <a href="http://46.101.113.24:6000/">http://46.101.113.24:6000/{your user name}</a> where
- * "{your user name}" is your name of your Windows/Mac/Unix user (it will feature in the console output when deploying
- * through maven. If this gives you any problems (if your username is ⚔ for instance), please change the name in
- * the pom.xml file under the <code>properties -> user</code> tag.
+ * <p>When you're done, try runnig the maven 'test' task to see if your test works. This is an alternative to running
+ * it in Netbeans which is important if you want to work with other IDEs or on a server (which you do!).
  * </p>
  */
 public class Lambda {
