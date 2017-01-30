@@ -10,7 +10,7 @@ public class LambdaTest {
 
     @Test
     public void canCreateRunnable() {
-        Assert.assertEquals(Runnable.class, Lambda.createRunnable().getClass());
+        Assert.assertTrue(Lambda.createRunnable().getClass().getCanonicalName().contains("Lambda"));
     }
 
     @Test
