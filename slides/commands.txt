@@ -1,0 +1,80 @@
+!!(true)
+!!('')
+!!({})
+
+[] == false
+"" == false
+null == false
+Number(true)
++true
+true + true
+
+!!("0")
+0 == "0"
++"0"
+null == undefined
+
+typeof "asdf"
+typeof String('a') == 'string'
+String('a') == 'a'
+new String('a') == 'a'
+typeof new String('a')
+new String('a')
+(new String('a')).toString()
+"foo" + + "ardf"
++'a'
+
+typeof []
+typeof {}
+typeof new Date()
+Object.prototype.toString.call([])
+{}.toString.call(new Date)
+0.1 + 0.2 === 0.3
+
+[] + []
+[] + {}
+{} + []
+{} + {}
+
+Array(16)
+Array(16).join("cph")
+Array(16).join("cph" + 1)
+Array(16).join("cph" - 1) + " Batman!"
+
+1 === 1
+Number.prototype.isOne = function() { return this === 1; }
+
+3 > 2 > 1
+
+"2" + 1
+"2" - 1
+"2"- -1
+
+parseInt("08")
+parseInt("08", 10)
+
+Number(Infinity)
+parseFloat(Infinity)
+parseInt(Infinity)
+
+2.toFixed(2)
+(2).toFixed(2)
+2.0.toFixed(2)
+2..toFixed(2)
+
+typeof NaN
+NaN instanceof Number
+isNaN(null)
+[] == []
+[] == ![]
+![]
++![]
++[] === +![]
+2 == [2]
++[2]
+
+0xfff.constructor
+var c = 'constructor'
+c[c][c]('console.log("HI")')()
+
+function f() { console.log("hi"); }
